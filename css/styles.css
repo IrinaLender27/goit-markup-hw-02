@@ -62,10 +62,6 @@ body {
 .main-title {
   color: #2e2f42;
 }
-.button-list {
-  align-items: flex-start;
-  gap: 24px;
-}
 .button-item {
   color: var(--iris, #4d5ae5);
   text-align: center;
@@ -118,12 +114,12 @@ a {
 
 .main-section-title {
   color: var(--white, #fff);
-  text-align: center;
   font-size: 56px;
   font-style: normal;
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0, 02 em;
+  font-family: 'Roboto', sans-serif;
 }
 .advantages-title {
   color: var(--navyblue, #2e2f42);
@@ -150,11 +146,11 @@ a {
 
 .section-title {
   background: var(--navyblue, #2e2f42);
-  flex-shrink: 0;
 }
+
 .button-service {
-  background: var(--iris, #4d5ae5);
-  color: var(--white, #fff);
+  background: #4d5ae5;
+  color: #fff;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -162,32 +158,32 @@ a {
   letter-spacing: 0.64px;
   cursor: pointer;
   letter-spacing: 0.04em;
+  font-family: 'Roboto', sans-serif;
 }
 .button-service:hover,
 .button-service:focus {
-  background-color: #ffffff;
+  background-color: #404bbf;
 }
 .team-list {
   background: var(--cloud, #f4f4fd);
 }
 .title {
   color: var(--navyblue, #2e2f42);
-  text-align: center;
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
-  line-height: 1.11;
   text-transform: capitalize;
   line-height: 1.11;
   letter-spacing: 0.02em;
 }
 .name {
   font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
 }
 .post {
   font-size: 16px;
@@ -199,7 +195,7 @@ a {
   background: var(--navyblue, #2e2f42);
 }
 .span-studio-footer {
-  color: var(--iris, #4d5ae5);
+  color: #f4f4fd;
   font-family: Raleway, sans-serif;
   font-size: 18px;
   font-style: normal;
@@ -210,7 +206,7 @@ a {
   letter-spacing: 0.03em;
 }
 .logo-link-footer {
-  color: var(--cloud, #f4f4fd);
+  color: #4d5ae5;
   font-family: Raleway, sans-serif;
   font-size: 18px;
   font-style: normal;
@@ -219,4 +215,7 @@ a {
   letter-spacing: 0.54px;
   text-transform: uppercase;
   letter-spacing: 0.03em;
+}
+.address {
+  font-style: normal;
 }

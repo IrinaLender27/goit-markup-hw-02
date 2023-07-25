@@ -1,7 +1,7 @@
-body {
-  font-family: Roboto, sans-serif;
-  background: #fff;
-  color: #434455;
+body.root {
+  --font-family: Roboto, sans-serif;
+  --background: #fff;
+  --color: #434455;
 }
 
 .nav-link {
@@ -69,9 +69,10 @@ body {
   font-style: normal;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.4em;
+  letter-spacing: 0.04em;
   cursor: pointer;
   background: #f4f4fd;
+  font-family: 'Roboto', sans-serif;
 }
 .button-item:hover,
 .button-item:focus {
@@ -114,6 +115,7 @@ a {
 
 .main-section-title {
   color: var(--white, #fff);
+  text-align: center;
   font-size: 56px;
   font-style: normal;
   font-weight: 700;
@@ -175,6 +177,7 @@ a {
   text-transform: capitalize;
   line-height: 1.11;
   letter-spacing: 0.02em;
+  text-align: center;
 }
 .name {
   font-size: 36px;
@@ -218,4 +221,7 @@ a {
 }
 .address {
   font-style: normal;
+}
+.team {
+  background-color: #ffffff;
 }
